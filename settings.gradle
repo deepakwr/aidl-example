@@ -1,0 +1,3 @@
+rootProject.name='AidlExample'
+include ':app'
+include ':sensorsdk'

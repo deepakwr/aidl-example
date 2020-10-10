@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deepak.sensorsdk" >
+
+    <application>
+        <service
+            android:name="com.deepak.sensorsdk.OrientationService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <!-- Start/Stop service -->
+                <action android:name="com.deepak.sensorsdk.OrientationService.MYSERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
+
